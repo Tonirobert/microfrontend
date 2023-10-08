@@ -1,0 +1,27 @@
+<p>ini dialog</p>
+
+<div class="col-8">
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>nama</mat-label>
+      <input matInput [(ngModel)]="item" type="text"/>
+    </mat-form-field>
+  </div>
+  <div class="col-8">
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="item" type="text"/>
+    </mat-form-field>
+  </div>
+  <div class="col-8">
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>Alamat</mat-label>
+      <input matInput [(ngModel)]="item" type="text"/>
+    </mat-form-field>
+  </div>
+
+<mat-dialog-actions align="center" class="align-center">
+    <div class="mt-3 text-center" [align]="'end'">
+        <button mat-raised-button class="confirm-button-no" mat-dialog-close >Cancel</button>
+        <button mat-raised-button class="confirm-button-yes" (click)="save()" >Save</button>
+    </div>
+</mat-dialog-actions>

@@ -1,0 +1,36 @@
+
+<th>
+  <td class="sidebar">
+    <ul class="nav">
+      <h3>MENU</h3>
+      <br>
+      <li class="nav-item">
+        <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+        <a class="nav-link active" routerLink="/">Home admin</a>&nbsp;&nbsp;&nbsp;
+      </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#">Link</a> -->
+        <a class="nav-link" routerLink="/todo-list">Todo list</a>
+      </li>
+    </ul>
+    
+  </td><td>
+
+    <router-outlet class="routing"></router-outlet>
+  </td>
+  
+
+
+
+<!-- <mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <h1>My App</h1>
+      <ul>
+        <li><a routerLink="/dashboard" routerLinkActive="active" ariaCurrentWhenActive="page">dashboard</a></li>
+        <li><a routerLink="/data" routerLinkActive="active" ariaCurrentWhenActive="page">data</a></li>
+      </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->

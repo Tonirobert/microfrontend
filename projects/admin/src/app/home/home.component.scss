@@ -1,0 +1,28 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .tool{
+    background-color: rgb(180, 188, 190);
+    padding: 10px;
+  }
+  .example-icon{
+    color: rgb(10, 10, 10);
+  }
+
+  .example-container{
+    background-color: antiquewhite;
+  }
+  .content{
+    padding: 5px;
+    padding-inline: 24px;
+    width: 48%;
+    padding-right: 0px;
+  }
+
+  .sidebar{
+    width: 13%;
+    margin-left: 10px;
+    background-color: rgb(230, 237, 214);
+    margin-top: 1px;
+    height: 1000px;
+  }
